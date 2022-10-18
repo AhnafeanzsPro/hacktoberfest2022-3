@@ -1,0 +1,11 @@
+fun main() {
+    val anyList = mutableListOf('a',"Kotlin",3,true)
+    anyList.add('d') //menambah item diakhir list
+    println(anyList)
+    anyList.add(1,"My") //menambah item pada index ke-1
+    println(anyList)
+    anyList[3] = false //mengubah nilai item pada index ke-3
+    println(anyList)
+    anyList.removeAt(1)
+    println(anyList)
+}
